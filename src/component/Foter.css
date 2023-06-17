@@ -1,0 +1,20 @@
+
+  
+  .container_foot {
+    background-color: rgb(241, 129, 119);
+    display: flex;
+    justify-content: center;
+  }
+  
+  .footer-content {
+    display: flex;
+  }
+  
+  .footer-section {
+    margin: 0 20px;
+  }
+  
+.copy{
+    padding: 10px;
+    font-weight: 600;
+}

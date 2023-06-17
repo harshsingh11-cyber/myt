@@ -1,0 +1,8 @@
+.location{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(238, 161, 154);
+    padding: 20px;
+    align-items: center;
+}
