@@ -72,7 +72,7 @@ function App() {
                 <div className='stay'>
                   {
                     popularStays.map((stay) => (
-                      <Card name={stay.propertyName} imgn={stay.propertyImage} altt={stay.propertyName} price={stay.staticPrice.amount} star={stay.propertyStar} type={stay.propertyType} />
+                      <Card name={stay.propertyName} imgn={stay.propertyImage} altt={stay.propertyName} price={stay.staticPrice.amount} star={stay.propertyStar} type={stay.propertyType}  code={stay.propertyCode}/>
                     ))
                   }
                 </div>
